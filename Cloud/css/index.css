@@ -1,0 +1,103 @@
+div.container
+{
+width:98%;
+margin:0px;
+border:1px solid black;
+line-height:150%;
+position:fixed;
+z-index:1;
+top:1px;
+border-radius:5px 5px 20px 20px;
+}
+div.header
+{
+padding:0.5em;
+color:#1E90FF;
+background-color:black;
+clear:left;
+border-radius:5px 5px 20px 20px;
+}
+
+body
+{
+background-color:white;
+
+}
+
+.login_box{
+	height:70%;
+	width: 35%;
+	border:1px solid #DCDCDC;
+	position: relative;
+	top: 25%;
+	left: 32%;
+	background-color: #F8F8FF;
+}
+body{
+	background-color: #DCDCDC;
+}
+
+.login_box_sub{
+	height:4%;
+	width: 33%;
+	border-radius: 20px 20px 0px 0px;
+	border: 1px solid white;
+	position: relative;
+	top:-47%;
+	left: 33%;
+	background-color: #F8F8FF;
+}
+.register_icon{
+	border-radius: 50%;
+	cursor:pointer;
+	height :9%;
+	width: 5%;
+	position: relative;
+	top:-240px;
+	left: 65%;		
+}
+.login_font{
+	font-family:Courier New;
+	font-size: 40px;
+	color:#FF0000;
+	position: absolute;
+	top:10%;
+	left: 10%;
+}
+
+input{
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: Courier New;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  width:110%;
+  height: 40%;
+  color: #696969;
+  
+}
+input:focus {
+  border-color: #FF0000;
+}
+
+.input_field{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+
+}
+
+.login_submit{
+	height: 10%;
+	width:40%;
+	border:2px solid #DCDCDC;
+	position: absolute;
+	top: 50%;
+	left: 26%;
+}
+input.login_submit:hover{
+	border-color: #FF0000;
+}
